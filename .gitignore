@@ -27,3 +27,21 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+
+##### Below aditional https://www.clickittech.com/devops/terraform-best-practices/
+
+# logs
+*.log
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+
+# Ignored vscode files
+.vscode/
